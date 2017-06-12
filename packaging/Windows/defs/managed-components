@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 
-REPO=${2:-"http://storage.bos.internalx.com/mono-mac-4.0.0-branch/79/7975f5090d8b0d266dc0ba824295d92edd8873da/MonoFramework-MDK-4.0.0.0.macos10.xamarin.x86.pkg"}
+REPO=${2}
 REPODIR=$(dirname $(realpath $0))/../repos/managed-components
 
 error()
